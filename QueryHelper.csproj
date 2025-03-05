@@ -36,6 +36,5 @@
     </ItemGroup>
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
-        <Reference Include="Microsoft.AspNetCore.Http.Extensions" />
     </ItemGroup>
 </Project>
