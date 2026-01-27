@@ -1,3 +1,6 @@
+using System;
+using System.Net.Http;
+
 namespace TheElm.Url {
     public static partial class UriHelper {
         public static HttpRequestMessage Request( this UriBuilder builder, HttpMethod method )

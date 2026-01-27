@@ -1,4 +1,6 @@
-﻿using TheElm.Literals;
+﻿using System;
+using System.Linq;
+using TheElm.Literals;
 
 namespace TheElm.Url {
     public static partial class UriHelper {

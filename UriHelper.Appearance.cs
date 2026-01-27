@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using TheElm.Literals;
 
 namespace TheElm.Url {

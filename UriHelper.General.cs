@@ -1,3 +1,5 @@
+using System;
+
 namespace TheElm.Url {
     public static partial class UriHelper {
         public static UriBuilder WithScheme( this UriBuilder builder, string scheme ) {

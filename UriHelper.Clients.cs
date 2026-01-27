@@ -1,3 +1,6 @@
+using System;
+using System.Net.Http;
+
 namespace TheElm.Url {
     public static partial class UriHelper {
         /// <summary>
