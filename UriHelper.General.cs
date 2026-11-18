@@ -4,6 +4,7 @@ namespace TheElm.Url {
     public static partial class UriHelper {
         public static UriBuilder WithScheme( this UriBuilder builder, string scheme ) {
             builder.Scheme = scheme;
+            builder.Port = -1; // Reset the port back to default
             return builder;
         }
         
